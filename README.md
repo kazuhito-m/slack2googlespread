@@ -9,7 +9,7 @@ Slackの特定チャンネルから(システム通知を除いた)ログを、'
 
 ## Spesial Thanks
 
-@motemen さんの [こちらのページ](http://motemen.hatenablog.com/entry/2015/11/gas-slack-log-spreadsheet) と [ソース](https://github.com/motemen/gas-slack-log-spreadsheet/) を参考にさせていただきました。感謝！
+[@motemen](https://github.com/motemen) さんの [こちらのページ](http://motemen.hatenablog.com/entry/2015/11/gas-slack-log-spreadsheet) と [ソース](https://github.com/motemen/gas-slack-log-spreadsheet/) を参考にさせていただきました。感謝！
 
 ## Requirement
 
@@ -23,10 +23,10 @@ Slackの特定チャンネルから(システム通知を除いた)ログを、'
 
 使い方(ビルドと仕込み方法)です。
 
-1. npmでライブラリインストール、ビルドを行います。
+1. npmでライブラリインストール、ビルド
   - `npm install`
   - `npm run build`
-    - ここで `error TS6082:...` なエラーが出ますが、`app.js`ファイルが作成されていれば問題ありません
+    - ここで `error TS6082:...` なエラーが出ますが、`app.js`ファイルが作成されていれば問題なし
 0. `Google Apps Script` のプロジェクトにスクリプトを作成し `app.js` の内容を貼る
 0. `Google Apps Script` のプロジェクトに、以下のプロパティを設定する
   - メニューから [ファイル] → [プロジェクトのプロパティ] → [スクリプトのプロパティ] で、以下の値を追加
