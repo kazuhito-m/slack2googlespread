@@ -3,7 +3,7 @@ Slack to Google Spreadsheet
 
 ## What's this ?
 
-Slackの特定チャンネルから(システム通知を除いた)ログを、'Google Spreadsheet' へと保存する `Google Apps Script` です。
+Slackの特定チャンネルから(システム通知を除いた)ログを、`Google Spreadsheet` へと保存する `Google Apps Script` です。
 
 `TypeScript`で記述してあり、トランスパイルが必要です。
 
