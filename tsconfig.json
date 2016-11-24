@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "out": "app.js",
+        "target": "ES5",
+        "removeComments": false,
+        "sourceMap": true,
+        "noImplicitAny": true
+    },
+    "files": [
+        "src/app.ts"
+    ]
+}

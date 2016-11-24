@@ -1,0 +1,17 @@
+{
+  "name": "slack2googlespread",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "postinstall": "typings install",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "kazuhito_m",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^2.0.3",
+    "typings": "^2.0.0"
+  }
+}
